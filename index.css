@@ -1,1 +1,156 @@
-.head
+* {
+  margin: 0;
+}
+a {
+  font-family: 0;
+  font-size: o;
+  text-decoration: 0;
+}
+.head {
+  width: 100vw;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.teslalogopic {
+  width: 120px;
+  height: 24px;
+  padding-left: 50px;
+}
+.categore {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  align-items: center;
+}
+.textcat {
+  font-size: 14px;
+  font-family: "Inter";
+}
+.url {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+}
+.urlpic {
+  width: 32px;
+  height: 32px;
+}
+.section1 {
+  display: flex;
+}
+.sec1pic1 {
+  width: 100vw;
+  background-image: url(/sec1pic1.avif);
+  height: 720px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding-bottom: 20px;
+  padding-top: 40px;
+}
+.name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 35px;
+  height: 150px;
+  width: 500px;
+}
+.name1 {
+  height: 87.76px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cybtruckpic {
+  height: 87.76px;
+}
+.text1 {
+  font-size: 20px;
+  color: white;
+  font-family: "Inter";
+  text-decoration: underline;s
+}
+.sec1 {
+  display: flex;
+  gap: 24px;
+}
+.ordernow {
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: rgb(37, 130, 231);
+  color: white;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter";
+}
+.viewinventory {
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: white;
+  color: black;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter";
+}
+.sum {
+  display: flex;
+  justify-content: space-between;
+}
+.sumsize {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.75);
+  box-shadow: (0, 0, 0, 0.25) 0px 4px 4px;
+}
+.scroll {
+  display: flex;
+  align-items: end;
+  gap: 12px;
+}
+.circle {
+  width: 12px;
+  height: 12px;
+  border-radius: 12px;
+  background-color: rgba(92, 91, 91, 0.881);
+}
+.circle.hover,
+.circle:active {
+  background-color: white;
+  cursor: pointer;
+}
+.sec1pic2 {
+  width: 100vw;
+  background-image: url(/sec1pic2.avif);
+  height: 720px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding-bottom: 20px;
+  padding-top: 40px;
+}
+.name2 {
+}
